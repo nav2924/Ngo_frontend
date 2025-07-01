@@ -27,10 +27,12 @@ nav2924-ngo_frontend/
 ├── package.json            → Project dependencies and scripts
 ├── vite.config.js          → Vite configuration
 └── src/
+    ├── pages/         → For pages
     ├── App.jsx             → Root App component
     ├── main.jsx            → React DOM renderer
     ├── index.css           → Tailwind base styles
     ├── components/
+        └── custom/         → For custom compoents
     │   └── ui/             → All shadcn UI components (e.g., button, card, dialog, etc.)
     ├── hooks/
     │   └── use-mobile.js   → Custom hook for mobile viewport detection
@@ -58,3 +60,29 @@ npm install
 ```bash
 npm run dev
 ```
+
+
+## 🤝 Contributing
+
+We welcome contributions to improve this project! To contribute:
+
+1. **Fork this repository**
+
+2. **Create a new branch**
+
+```bash
+git checkout -b feat/your-feature
+```
+
+3. **Make your changes and commit**
+
+```bash
+ git commit -m "feat: add your feature"
+```
+
+4. **Push to your branch**
+```bash
+git push origin feat/your-feature
+```
+
+5. **Open a Pull Request**
