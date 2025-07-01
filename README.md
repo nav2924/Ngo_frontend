@@ -1,12 +1,60 @@
-# React + Vite
+# NGO Frontend – `nav2924-ngo_frontend`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern **React + Vite** based frontend boilerplate tailored for building scalable NGO or social-impact web applications. It comes pre-configured with **Tailwind CSS**, **shadcn/ui components**, **ESLint**, and a clean modular directory structure to streamline development.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- ⚡️ **Vite** for lightning-fast development builds
+- 🎨 **Tailwind CSS** utility-first styling
+- 🧩 **shadcn/ui** for accessible and aesthetic UI components
+- 📦 Component-based folder structure (`/components/ui`)
+- 🔍 Responsive utilities and hooks (`/hooks/use-mobile.js`)
+- 🧹 Pre-configured ESLint for code quality and consistency
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🗂️ Project Structure
+
+```plaintext
+nav2924-ngo_frontend/
+├── README.md               → Project overview and instructions
+├── components.json         → Tracks shadcn/ui components
+├── eslint.config.js        → ESLint configuration
+├── index.html              → HTML entry point for Vite
+├── jsconfig.json           → JS/TS path aliases
+├── package.json            → Project dependencies and scripts
+├── vite.config.js          → Vite configuration
+└── src/
+    ├── App.jsx             → Root App component
+    ├── main.jsx            → React DOM renderer
+    ├── index.css           → Tailwind base styles
+    ├── components/
+    │   └── ui/             → All shadcn UI components (e.g., button, card, dialog, etc.)
+    ├── hooks/
+    │   └── use-mobile.js   → Custom hook for mobile viewport detection
+    └── lib/
+        └── utils.js        → Utility/helper functions
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/nav2924-ngo_frontend.git
+cd nav2924-ngo_frontend
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
